@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">DiaryApp</string>
+    <string name="fragment1_value">fragment 1</string>
+    <string name="fragment2_value">fragment 2</string>
+    <string name="select_diary_date_tab">Select Date</string>
+    <string name="create_diary_entry_tab">Create Entry</string>
+    <string name="view_diary_entries_tab">View Entries</string>
+    <string name="entry_content_label">Diary Entry Content:</string>
+    <string name="button_clear_text">Clear Text</string>
+    <string name="button_create_entry_text">Create Entry</string>
+    <string name="content_label_hint">Content Label</string>
+    <string name="edit_text_entry_content_hint">Enter your diary content here!</string>
+    <string name="clears_the_text_in_the_entry_content_box_hint">Clears the text in the entry content box</string>
+    <string name="create_diary_entry_title">Create your Entry</string>
+    <string name="date_display_default">01/01/1970</string>
+    <string name="diary_entry_title_label">Diary Entry Title:</string>
+    <string name="diary_entry_title_hint">Enter entry title here!</string>
+    <string name="select_date_title">Select Date for Diary Entry</string>
+    <string name="select_date_help_text">Swipe left or use the above tabs to continue</string>
+    <string name="button_tomorrow_text">Tomorrow</string>
+    <string name="button_today_text">Today</string>
+    <string name="light_mode_switch_text">Light Mode</string>
+    <string name="text_view_all_finished_text">All Finished?</string>
+    <string name="radio_button_ztoa_text">Z-A</string>
+    <string name="view_entries_title">Current Entries</string>
+    <string name="radio_button_date_text">Date</string>
+    <string name="delete_button_text">Delete Entries</string>
+    <string name="button_clear_search">Clear Search</string>
+    <string name="radio_button_none_text">None</string>
+    <string name="radio_group_title_text">Sort By:</string>
+    <string name="fab_display_actions_description">Display the Actions</string>
+    <string name="fab_create_entry_description">Create the diary entry</string>
+    <string name="attach_image_to_entry">Attach image to entry</string>
+    <string name="clear_the_text_fields">Clear the Text Fields</string>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="TabTextExtraLarge" parent="TextAppearance.Design.Tab">
+        <item name="android:textSize">18sp</item>
+    </style>
+    <style name="LargeTabletSearchView" parent="Widget.AppCompat.SearchView">
+        <item name="android:textSize">28sp</item>
+    </style>
+</resources>

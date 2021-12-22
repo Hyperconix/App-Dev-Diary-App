@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <TextView
+            android:text="@string/select_date_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textViewSelectDateTitle"
+            android:textSize="34sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="4dp"
+            android:textColor="?android:textColorPrimary"
+            app:layout_constraintHorizontal_bias="0.496" />
+
+    <CalendarView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/calendarViewDatePicker"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="8dp"
+            android:textColor="?android:textColorPrimary"
+            android:dateTextAppearance="@style/TextAppearance.AppCompat.Large"
+            android:weekDayTextAppearance="@style/TextAppearance.AppCompat.Large"
+            app:layout_constraintTop_toBottomOf="@+id/textViewSelectDateTitle"
+            app:layout_constraintDimensionRatio="1:0.8" />
+
+    <TextView
+            android:text="@string/select_date_help_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textViewSelectDateHelp"
+            app:layout_constraintTop_toBottomOf="@+id/textViewAllFinished"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:paddingStart="15dp"
+            android:paddingEnd="15dp"
+            android:layout_marginTop="12dp"
+            android:textColor="?android:textColorPrimary"
+            app:layout_constraintHorizontal_bias="0.5"
+            android:textSize="26sp" />
+
+    <Button
+            android:text="@string/button_today_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/buttonToday"
+            app:layout_constraintTop_toBottomOf="@+id/calendarViewDatePicker"
+            android:layout_marginTop="8dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/buttonTomorrow"
+            android:textSize="26sp" />
+
+    <Button
+            android:text="@string/button_tomorrow_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/buttonTomorrow"
+            app:layout_constraintTop_toBottomOf="@+id/calendarViewDatePicker"
+            android:layout_marginTop="8dp"
+            app:layout_constraintStart_toEndOf="@+id/buttonToday"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:textSize="26sp" />
+
+    <TextView
+            android:text="@string/text_view_all_finished_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textViewAllFinished"
+            android:textColor="?android:textColorPrimary"
+            android:textSize="34sp"
+            app:layout_constraintTop_toBottomOf="@+id/buttonToday"
+            android:layout_marginTop="12dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
