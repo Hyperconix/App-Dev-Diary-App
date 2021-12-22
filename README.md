@@ -14,7 +14,7 @@ which I chose to implement.
 2. The landscape views do not work very well when entries are added on the third screen. In general these could be improved. 
 3. The current implementation of adding an image to an entry is very rudimentary and not the best, this was more to demonstrate the idea rather a proper implementation of
    adding media other than text which was not possible in the time constraint of the module assignment.
-4. Support for phones < 320 not yet supported.
+4. Support for phones @ 320 not yet supported.
 
 ### Top level requirements
 1. Support fragments
