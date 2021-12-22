@@ -2,7 +2,7 @@
 
 This repo contains the source code for an application which was originally created for an App Dev module in Uni (Grade: 89%). It is the first Android App I have created properly. 
 
-This app was submitted in a fairly completed state, however there are a number of improvements that could be made, which are listed below. I may updated
+This app was submitted in a fairly completed state, however there are a number of improvements that could be made, which are listed below. I may update
 this app in the future to satisfy those points.
 
 Additionally, starting from the heading "Top Level Requirements" is the original module assignment requirements, as well as the basic and advanced features
