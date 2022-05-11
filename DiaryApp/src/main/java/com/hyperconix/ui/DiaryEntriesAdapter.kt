@@ -43,7 +43,7 @@ class DiaryEntriesAdapter(private var diaryEntries: MutableList<DiaryEntry>, val
      *
      * @param itemView The view to be used with the ViewHolder
      *
-     * @author 2727141
+     * @author Luke S
      */
     inner class DiaryEntriesViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView), View.OnClickListener  {
         private val textViewEntryTitle: TextView = itemView.findViewById(R.id.textViewEntryTitle)
