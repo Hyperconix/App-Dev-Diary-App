@@ -1,3 +1,7 @@
+# DISCLAIMER
+This was uploaded to Github for visiblity and potential improvements in the future. If you recognise and are sitting this module, do not be silly enough to copy anything and attempt to circumvent University Academic Misconduct policy. You will likely get caught and it is not worth it. I take no responsibility
+for what happens if you choose to ignore this disclaimer.
+
 # Applications Dev Diary App
 
 This repo contains the source code for an application which was originally created for an App Dev module in Uni (Grade: 89%). It is the first Android App I have created properly. 
